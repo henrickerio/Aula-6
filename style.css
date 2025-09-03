@@ -1,0 +1,46 @@
+#container{
+    width: 95%;
+    max-width: 980px; /*largura máxima*/
+    height: auto;
+    margin: 0 auto; /*centraliza o container na tela*/
+    
+}
+header#topo{
+    background-color: #6040ee;
+    width: 100%;
+    height: 84px;
+    
+}
+#logotipo {
+    width: 204px;
+    height: 84px;
+    margin: 20px auto; }
+   
+nav#menu {
+        width: 100%;
+        height: 40px;
+        background-color: #786af3;
+        float: left;
+        text-align: center ;  
+        line-height: 40px;   
+        border-radius: 5px;
+           }
+article#conteudo {
+            width: 60%;
+            height: auto;
+            float: right;
+                       }
+aside#lateral { width: 35%;
+            height: auto;
+            float: right;
+         }
+footer#rodape {
+            width: 100%;
+            height: 60px;
+            background-color: #5557c4;
+            clear: both;
+            text-align: center;
+            line-height: 60px;
+            color: white;
+            margin-top: 20px; 
+           }
