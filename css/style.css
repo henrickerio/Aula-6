@@ -1,0 +1,315 @@
+/* coloque sombra nas fontes */
+body {
+    text-shadow: 2px 2px 4px #252424;
+}
+/* mude a cor da fonte para uma cor animada no tema de galaxia */
+body {
+    color: #ffffff;
+    background: linear-gradient(90deg, #000428, #004e92);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+/* animação para o fundo */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+body {
+    text-align: center;
+
+}
+#conteiner{
+    width: 95%;
+    max-width: 980px; /*largura máxima*/
+    height: 0 auto;
+    margin: 0 auto; /*centraliza o conteiner*/
+
+
+}
+#header#topo{
+    width: 100%;
+    height: 84px;
+    background-color: #02cee9;
+}
+/*mude a cor da fonte do nav para um branco brilhante e adicione um efeito de brilho ao passar o mouse*/
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+/*mude a cor da fonte nav Saiba Mais para uma cor brilhante com animação de brilho ao passar o mouse*/
+nav a:hover {
+    color: #e6f700;
+    text-shadow: 0 0 5px #111111, 0 0 10px #f30404, 0 0 20px #f30a0a;
+}
+
+
+/* deixe o menu e a borda dele alinhados com o banner e deixe responsivo e centralizado */
+nav#Menu{
+    width: 980px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+    max-width: 100%;
+    /*tire o espaço que tem entre o banner e o menu */
+    margin-bottom: 5px;
+
+}
+nav#Menu a{
+    margin: 0 20px;
+
+}
+nav#Menu a:hover{
+    text-decoration: underline;
+
+}
+
+#logotipo{
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    float: middle;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+/* deixe o conteudo centralizado na pagina e responsivo com a borda do mesmo tamanho da borda do menu e banner */
+#conteudo{
+    width: 50%;
+    height: 0 auto;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    clear: both;
+    /* coloque o conteudo do lado esquerdo do aside */
+    float: left;
+    /* centralize um pouco mais o conteudo para ficar mais bonito */
+    padding: auto 14px;
+    /*diminua a fonte do conteudo para ficar mais centralizado com o resto do site*/
+    font-size: 14px;
+    max-width: 100%;
+
+
+}
+/* coloque o aside do lado direito do conteudo e responsivo */
+#lateral{
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    float: right;
+    /* centralize um pouco a lateral para ficar mais perto do conteudo e centralizado com banner */
+    padding: auto 10px;
+    max-width: 100%;
+    /* diminua o tamanho da fonte para caber perfeitamente entre o banner e o rodape */
+    font-size: 14px;
+    /*separe a fonte por paragrafos*/
+
+
+
+}
+/* deixe o rodape centralizado na pagina e responsivo com a borda do mesmo tamanho da borda do menu e banner */
+#rodape{
+
+    width: 980px;
+    height: 60px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 60px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    clear: both;
+    max-width: 100%;
+    font-size: 14px;
+
+}
+#w3c{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: middle;
+
+}
+/* deixe o banner mais centralizado e responsivo */
+#banner{
+    width: 980px;
+    height: 300px auto;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    /* tire o espaço que tem entre o menu e o banner */
+    margin-top: 5px;
+    display: block;
+
+
+}
+div#anunciogalaxia{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+    line-height: 90px;
+    float: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: none;
+    max-width: 100%;
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    div#anunciogalaxia {
+        display: block;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    nav#Menu a{
+       margin: 0 15px;
+       font-size: 14px;
+       display: block;
+    }
+}
+/* media query css para deixar o site responsivo */
+@media screen and (max-width: 380px) {
+    #conteiner{
+        width: 100%;
+        padding: 0 10px;
+    }
+    #header#topo{
+        height: 70px;
+    }
+    nav#Menu{
+        width: 100%;
+        height: auto;
+        line-height: 30px;
+    }
+    #logotipo{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+    article#conteudo{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    aside#lateral{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    #rodape{
+        width: 100%;
+        height: auto;
+        line-height: 30px;
+    }
+    #banner{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+}
+
+#form{
+    /*centralize o formulario e deixe mais bonito*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    float: left;
+    /* coloque o formulario mais pro centro do conteudo */
+    width: 60%;
+
+
+}
+#mapa{
+    /*centralize o formulario e deixe mais bonito*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    float: left;
+    /* coloque o formulario mais pro centro do conteudo */
+    width: 20%;
+
+
+
+}
+article#form input[type="text"], article#form input[type="email"], article#form textarea {
+    width: 50%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+aside#mapa iframe {
+    width: 80%;
+    height: 400px;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div#sobre{
+    width: 45%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+
+
+}
+div#saiba{
+    width: 45%;
+    height: auto;
+    float: right;
+    margin-bottom: 10px;
+}
